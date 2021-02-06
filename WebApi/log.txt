@@ -1,0 +1,332 @@
+(REQUEST :, 12:51:11, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 12:51:11, , 200, OK)
+
+(REQUEST :, 12:51:12, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 12:51:12, , 404, NotFound)
+
+(REQUEST :, 12:51:22, GET, localhost:44348, /api/books)
+[{"id":1,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":2,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 12:51:22, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:09:04, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 12:09:04, , 200, OK)
+
+(REQUEST :, 12:09:04, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 12:09:04, , 404, NotFound)
+
+(REQUEST :, 12:13:18, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 12:13:18, , 200, OK)
+
+(REQUEST :, 12:13:18, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 12:13:18, , 404, NotFound)
+
+(REQUEST :, 12:18:28, GET, localhost:44348, //api/books/2)
+
+(RESPONSE : , 12:18:28, , 404, NotFound)
+
+(REQUEST :, 12:18:28, GET, localhost:44348, //api/books)
+
+(RESPONSE : , 12:18:28, , 404, NotFound)
+
+(REQUEST :, 12:18:28, GET, localhost:44348, //api/books/author/Sebastian)
+
+(RESPONSE : , 12:18:28, , 404, NotFound)
+
+(REQUEST :, 12:19:10, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 12:19:10, , 200, OK)
+
+(REQUEST :, 12:19:20, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 12:19:20, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:19:33, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 12:19:33, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:20:22, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 12:20:22, , 200, OK)
+
+(REQUEST :, 12:20:22, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 12:20:22, , 404, NotFound)
+
+(REQUEST :, 12:20:26, GET, localhost:44348, /s%C4%9F)
+
+(RESPONSE : , 12:20:26, , 404, NotFound)
+
+(REQUEST :, 12:20:31, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 12:20:31, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:20:41, GET, localhost:44348, /api/books/author/Get)
+
+(RESPONSE : , 12:20:41, , 404, NotFound)
+
+(REQUEST :, 12:20:46, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 12:20:46, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:21:05, GET, localhost:44348, /api/books/categories/new)
+
+(RESPONSE : , 12:21:05, , 404, NotFound)
+
+(REQUEST :, 12:21:17, GET, localhost:44348, /api/books/categories/Korku)
+{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]}
+(RESPONSE : , 12:21:17, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:21:32, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 12:21:32, , 200, OK)
+
+(REQUEST :, 12:21:32, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 12:21:32, , 404, NotFound)
+
+(REQUEST :, 12:22:06, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 12:22:06, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:22:06, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 12:22:06, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:22:06, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 12:22:06, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:22:46, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 12:22:47, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:22:50, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 12:22:50, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 12:23:03, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 12:23:03, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:39:01, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 17:39:02, , 200, OK)
+
+(REQUEST :, 17:39:02, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 17:39:02, , 404, NotFound)
+
+(REQUEST :, 17:39:10, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:39:10, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:39:10, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:39:10, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:39:10, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:39:10, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:39:30, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:39:30, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:39:31, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:39:31, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:39:31, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:39:31, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:14, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:43:14, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:14, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:43:14, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:14, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:43:14, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:26, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:43:26, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:26, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:43:26, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:26, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:43:26, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:29, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:43:29, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:29, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:43:29, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:29, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:43:29, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:57, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:43:57, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:57, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:43:57, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:43:57, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:43:57, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:01, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:44:01, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:01, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:44:01, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:01, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:44:01, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:15, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:44:15, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:15, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:44:15, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:52, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:44:52, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:52, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:44:52, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:44:52, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:44:52, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:14, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:45:14, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:14, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:45:14, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:14, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:45:14, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:47, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:45:47, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:47, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:45:47, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:47, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:45:47, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:58, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:45:58, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:45:58, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:45:58, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:46:04, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:46:04, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:46:04, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:46:04, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:46:12, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:46:12, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:46:12, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:46:12, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:46:12, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:46:12, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:48:41, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:48:41, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:48:41, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 17:48:41, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:48:41, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:48:41, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:48:47, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 17:48:47, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 17:48:47, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 17:48:47, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 19:35:39, GET, localhost:44348, /)
+Hello World!
+(RESPONSE : , 19:35:39, , 200, OK)
+
+(REQUEST :, 19:35:40, GET, localhost:44348, /favicon.ico)
+
+(RESPONSE : , 19:35:40, , 404, NotFound)
+
+(REQUEST :, 19:35:44, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 19:35:44, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 19:43:25, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 19:43:25, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 19:45:31, GET, localhost:44348, /api/books/2)
+{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}
+(RESPONSE : , 19:45:31, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 19:45:31, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 19:45:31, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 19:45:31, GET, localhost:44348, /api/books/author/Sebastian)
+{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}
+(RESPONSE : , 19:45:31, application/json; charset=utf-8, 200, OK)
+
+(REQUEST :, 19:45:49, GET, localhost:44348, /api/books)
+[{"id":0,"name":"Macera","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Kuantum Casusu","author":"David"},{"id":2,"name":"Sahte Krallık","author":"Sardugo"},{"id":3,"name":"Yaşam Sinyali","author":"Jose Rodrigues"}]},{"id":1,"name":"Korku","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Gölgeler","author":"Jack London"},{"id":2,"name":"Cinayet Şirketi","author":"Jack London"},{"id":3,"name":"Ruh Kırıcı","author":"Sebastian"}]},{"id":2,"name":"Tarih","numberOfBookOfInterests":3,"bookOfInterests":[{"id":1,"name":"Barbarossa","author":"İskender Pala"},{"id":2,"name":"Home Deus","author":"Noah Harrari"},{"id":3,"name":"Sultanın Korsanları","author":"Emrah Safa"}]}]
+(RESPONSE : , 19:45:49, application/json; charset=utf-8, 200, OK)
+
